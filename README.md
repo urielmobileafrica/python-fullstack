@@ -1,2 +1,2 @@
 # python-fullstack
-Python Stack Wek 1-8
+Python Stack Week 1-8
