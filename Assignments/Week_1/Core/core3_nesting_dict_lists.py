@@ -87,7 +87,9 @@ dojo = {
 #1st iteration is of keys - printing the length and the value to get the first line
 def printInfo(dojo):
     for key in dojo:
+        print('-'*15)
         print(f'{len(dojo[key])} {key}')
+        print('-'*15)
         #inner loop printing out the n values associated with each key - i.e. iterating through a list 
         for value in (dojo[key]):
             print(value)
