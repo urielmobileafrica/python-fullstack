@@ -82,11 +82,22 @@ dojo = {
    'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
 }
 
+#Conversation with Alaa to understand how for loops operate - I was able to reference the elements correctly and updat my solution as below
+#dict is a key valu pair
+#1st iteration is of keys - printing the length and the value to get the first line
+def printInfo(dojo):
+    for key in dojo:
+        print(f'{len(dojo[key])} {key}')
+        #inner loop printing out the n values associated with each key - i.e. iterating through a list 
+        for value in (dojo[key]):
+            print(value)
+
+'''
 def printInfo(dojo_arg={}):
     keys=[]
     keys=dojo_arg.keys()
     print(keys)
-
+'''
     
 
 printInfo(dojo)
