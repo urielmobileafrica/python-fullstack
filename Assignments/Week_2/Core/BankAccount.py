@@ -56,6 +56,8 @@ class BankAccount:
             #cls.instances.
         return cls.instances
 
+#Commented to Allow for Next Assignment
+'''
 my_account_1=BankAccount()
 my_account_2=BankAccount()
 
@@ -64,6 +66,7 @@ my_account_2.deposit(7500).deposit(2200).withdraw(10000).withdraw(5000).withdraw
 BankAccount.print_instances()
 print()
 #my_account_1.display_account_info(False)
+'''
 
 '''
 my_account = BankAccount(0.065,493.5)
