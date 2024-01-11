@@ -83,7 +83,8 @@ class User():
     
             
     def display_user_balance(self, display = False):
-        self.account.display_account_info(display)
+        self.pick_account()
+        self.account[self.ac_id].display_account_info(display)
         return self
     
 
